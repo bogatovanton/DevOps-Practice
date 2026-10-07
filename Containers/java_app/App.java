@@ -4,6 +4,7 @@ import java.sql.Statement;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        Thread.sleep(5000);
         // Подключаемся к базе данных
         String url = "jdbc:postgresql://db:5432/mydb";
         String user = "user";
